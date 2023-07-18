@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    width: 100%;
+}
+
+header nav {
+    height: 69px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    background-color: black;
+}
+header img {
+    display: inline-block;
+    height: 50px;
+}
+header ul {
+    display: inline-flex;
+}
+header li {
+    display: inline;
+    margin: 0 15px;
+}
+header a {
+    color: seashell;
+}
+
+.main {
+    display: flex;
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.content {
+    display: flex;
+    background-color: black;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.content h1,
+.content h4 {
+    text-align: center;
+    width: 100%;
+}
+.content h1 {
+    margin-bottom: 20px;
+}
+.content h4 {
+    margin-top: 10px;
+}
+
+#mission {
+    display: flex;
+    background-image: url('../images/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+#featured {
+    display: flex;
+    margin: 50px auto;
+    width: 1000px;
+    flex-direction: column;
+
+}
+#featured .images {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.images img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+.images h4 {
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+#locations {
+    background-image: url('../images/img-locations-background.jpg');
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+#locations h1 {
+    text-align: center;
+    margin-bottom: 0;
+}
+#locations div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#locations .location {
+    display: block;
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px
+}
+.location h3,
+.location p {
+    text-align: center;
+}
+
+#footer_title {
+    margin-top: 0;
+}
+
+footer {
+    width: 100%;
+}
+footer h5 {
+    margin-left: 20px;
+    text-align: left;
+}
